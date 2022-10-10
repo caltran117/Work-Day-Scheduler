@@ -19,8 +19,6 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
 
     <link rel="stylesheet" href="./css/style.css" />
     <title>Work Day Scheduler</title>
@@ -32,26 +30,23 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <!-- current day displayed at top of calender -->
       <p id="currentDay" class="lead"></p>
+
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
       <!-- create a calender with daily planner -->
-      Date: <div id="datepicker"></div>
+      <li id="timeblocks"></li>
     </div>
  
   </body>
+  <footer>
+    <p>&copy; Calvin Tran All Rights Reserved 2022</p>
+    
+  </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script>
-      $( function() {
-        $( "#datepicker" ).datepicker();
-      } );
-    </script>
-    <script src="/js/script.js"></script>
+    <script src="./js/script.js"></script>
 
 </html>
 

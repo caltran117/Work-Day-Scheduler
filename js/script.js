@@ -1,2 +1,2 @@
 var today= moment();
-$("#currentDay").text(today.format("dddd"));
+$("#currentDay").text(today.format("MM/DD/YYYY, dddd"));
