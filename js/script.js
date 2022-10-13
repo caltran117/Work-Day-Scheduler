@@ -1,8 +1,9 @@
+const TimeBlocksList = document.getElementById("TimeBlocksList");
 
 var today= moment();
 $("#currentDay").text(today.format("dddd MMMM DD, YYYY"));
 
-const timeblocks = [
+let timeblocks = [
     "8 am",
     "10 am",
     "11 am",
@@ -25,3 +26,7 @@ GenerateTimeBlocks();
 GenerateTimeBlocks = () => 
     TimeBlocksList.innerHTML = "";
 
+for (let i = 0; i < timeblocks.length; i++) {
+    const RowHours = timeblocks[i];
+    
+}
