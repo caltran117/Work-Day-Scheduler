@@ -28,10 +28,10 @@ function GenerateTimeBlocks(){
 for (let i = 0; i < timeblocks.length; i++) {
     var RowHours = timeblocks[i];
     
+    // change this with bootstrap
     var TimeBlocksList = document.createElement("div");
     TimeBlocksList.classList.add("TimeBlocksList");
     document.body.appendChild(TimeBlocksList);
-    
 
     var row = document.createElement("div");
     row.classList.add("row");
